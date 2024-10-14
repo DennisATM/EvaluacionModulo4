@@ -4,8 +4,7 @@ const insertCard = (contenedor)=>{
             <h5>Nombre del personaje</h5>
             <p class="text-content">Caracteristicas</p>
         </div>
-    </div>`
-    
+    </div>`   
 }
 
 const label1=document.getElementById('label1');
