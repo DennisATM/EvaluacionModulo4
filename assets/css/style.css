@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.timeline {
+    position: relative;
+    padding: 3px 0;
+    margin-left: 5px;
+}
+
+.timeline-label {
+    font-size: .8rem;
+    font-weight: bold;
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline-circle{
+    font-size: .5rem;
+    
+    position:absolute;
+    left:-6px;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.timeline-content {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #aeafb1;
+    z-index: 1;
+}
+
+#circle-card1{
+    background-color: salmon;
+    font-size: 1.1rem;
+}
+
+#circle-card2{
+    background-color: rgb(6, 244, 164);
+    font-size: 1.1rem;
+}
+
+#circle-card3{
+    background-color: rgb(78, 201, 241);
+    font-size: 1.1rem;
+}
+
+.text-content{
+    font-size: .9rem;
+}
