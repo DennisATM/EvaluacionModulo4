@@ -1,7 +1,8 @@
-*{
+*, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #fcfcfc;
 }
 
 .timeline {
@@ -30,7 +31,7 @@
 }
 
 .timeline-content {
-    background: #fff;
+    background: #fcfcfc;
     border-radius: 5px;
     padding: 15px;
     margin: 5px;
@@ -65,4 +66,10 @@
 
 .text-content{
     font-size: .9rem;
+}
+
+@media(max-width:576px){
+    .timeline-label{
+        display: none;
+    }
 }
